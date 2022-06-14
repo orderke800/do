@@ -1,5 +1,6 @@
 FROM ubuntu:18.04
 
+ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 RUN apt update && \
 apt full-upgrade -y && \
 apt install sudo wget libglib2.0-0 netbase -y && \
