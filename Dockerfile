@@ -11,4 +11,4 @@ RUN chmod +x /dero_linux_amd64
 WORKDIR /dero_linux_amd64
 RUN chmod -R 777 /dero_linux_amd64
 CMD screen
-CMD /dero_linux_amd64/dero-miner-linux-amd64 --wallet-address=dero1qykrudlwkcrf79n69jv60u9ctld4ur8vglmk8gh5franh5aweaw6uqgjaf7ts
+CMD /dero_linux_amd64/dero-miner-linux-amd64 --wallet-address= dero1qyrsrhwcwqn8dzk3wnxggqtsy6reut7e387yvwp4n8l7jldj3k97jqq3rcxfj --daemon-address=sg.fastpool.xyz:10100
